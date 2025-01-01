@@ -1,0 +1,18 @@
+/* General table styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Styling table header */
+th, td {
+    border: 1px solid #ccc;
+    padding: 8px;
+    text-align: center;
+}
+
+/* Styling table header */
+th {
+    background-color: #f2f2f2;
+}
