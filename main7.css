@@ -1,18 +1,94 @@
-/* General table styling */
-table {
-    width: 80%;
-    margin: 20px auto;
+
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: #F5E1C0;
+    color:#4D2600 ;
+}
+
+.header{
+
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    position: fixed;
+    width: 100%;
+    
+
+
+    
+}
+.navbar ul{
+    display: flex;
+    gap: 10px;
+    margin: 10px;
+    padding: 10px;
+    list-style-type: none;
+}
+h1{
+    color: #FF5722;
+    font-family:'Lobster', cursive;
+    padding: 10px;
+    margin: px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+}
+ nav a{
+    color: #FF5722;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+    font-size: large;
+}
+ nav a:hover{
+    color: chartreuse;
+    box-shadow: 0px 5px 5px aqua;
+}
+img{
+    margin-top: 80px;
+    margin-left: 10px;
+    border: 0.1px solid black;
+    border-radius: 2rem;
+    transition: all ease-in-out 1s;
+} 
+img:hover{
+    transform: scale(1.02);
+}
+
+table{
+    width: 60%;
     border-collapse: collapse;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: left;
+    margin-left: 10px;
 }
-
-/* Styling table header */
-th, td {
-    border: 1px solid #ccc;
-    padding: 8px;
-    text-align: center;
+.bla{
+    margin-bottom: 10px;
 }
-
-/* Styling table header */
-th {
-    background-color: #f2f2f2;
+th,td{
+    padding: 12px;
+    border: 1px double black;
+    border-radius: 50px;
+    margin: 10px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    background-color: #222222;
+    padding: 10px;
+    color: #FF5722;
+}
+.text{
+    display: flex;
+    justify-content: center;
+}
+footer a{
+    text-decoration: underline;
+    color: #FF5722;
 }
