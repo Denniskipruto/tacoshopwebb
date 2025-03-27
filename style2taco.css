@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box
+}
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+body{
+    background-color: #F5E1C0;
+    color:#4D2600 ;
+}
+header{
+    display: flex;
+    background-color: #222222;
+    position: fixed;
+    top: 0%;
+    width: 100%;
+    color: #FF5722;
+    
+    justify-content: space-between;
+    align-items: center;
+    
+    
+
+}
+nav{
+    
+    display: flex;
+    flex-grow: 1;
+    justify-content: flex-end;
+    gap: 20px;
+}
+nav a {
+    color: #FF5722;
+    text-decoration: none;
+    transition: all ease-in-out 0.5s;
+
+}
+nav a:hover{
+    color: chartreuse;
+    box-shadow: 0px 3px 0px aqua;
+
+}
+
+h1{
+    color: #FF5722;
+    font-family:'Lobster', cursive;
+    padding: 10px;
+    margin: px;
+    text-decoration: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+img{
+    border: 0.01px solid red;
+    border-radius: 2rem;
+    margin-top: 80px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+
+}
+
+.main{
+    margin: 10px;
+    font-size: larger;
+    display: flex;
+    justify-content: space-between;
+}
+footer{
+    display: flex;
+    background-color: #222222;
+    position: sticky;
+    width: 100%;
+    color: #FF5722;
+    font-size: larger;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+footer a{
+    color: #FF5722;
+    
+
+}
